@@ -16,7 +16,7 @@ export function GivingSection() {
 
       <a
         className="button button-light"
-        href="mailto:hello@cornerstone.example?subject=Donation%20information"
+        href="mailto:cornerstoneportalza@gmail.com?subject=Donation%20information"
       >
         Donation information
         <ArrowRight size={18} />

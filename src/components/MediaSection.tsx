@@ -14,8 +14,8 @@ export function MediaSection() {
           media.
         </p>
 
-        <a className="text-link" href="#home">
-          Visit media library
+        <a className="text-link" href="https://www.youtube.com/@CornerstonePortal" target="_blank" rel="noopener noreferrer">
+          Visit the portal YouTube channel
           <ArrowRight size={17} />
         </a>
       </div>

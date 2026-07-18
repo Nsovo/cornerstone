@@ -29,7 +29,7 @@ function StudyCard({ study, index }: StudyCardProps) {
 
 export function FeaturedStudies() {
   return (
-    <section className="section dark-section" id="studies">
+    <section className="section dark-section" id="studies" data-header-theme="dark">
       <div className="section-heading">
         <div>
           <p className="section-label">Learn & grow</p>

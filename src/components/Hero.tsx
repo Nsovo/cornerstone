@@ -7,7 +7,7 @@ import {
 
 export function Hero() {
   return (
-    <section className="hero" id="home">
+    <section className="hero" id="home" data-header-theme="hero">
       <div className="hero-glow hero-glow-one" />
       <div className="hero-glow hero-glow-two" />
 
@@ -18,7 +18,7 @@ export function Hero() {
 
         <p className="hero-copy">
           Weekly Bible studies, prayer, teaching, announcements and
-          fellowship—built around one simple motto:
+          fellowship, built around one simple motto:
           <strong> Loving You.</strong>
         </p>
 
@@ -36,22 +36,34 @@ export function Hero() {
       </div>
 
       <aside className="hero-card">
-        <span className="live-pill">This week topic</span>
+  <span className="live-pill">This Week Topic</span>
 
-        <h2>God with you </h2>
+  <h2>Consultation with God</h2>
 
-        <div className="event-row">
-          <CalendarDays size={20} />
-          <span>Every Saturday</span>
-        </div>
+  <div className="event-row">
+    <CalendarDays size={20} />
+    <span>Every Saturday</span>
+  </div>
 
-        <div className="event-row">
-          <Clock3 size={20} />
-          <span>Gather from 6:30 PM · Study at 7:00 PM</span>
-        </div>
+  <div className="event-row">
+    <Clock3 size={20} />
+    <span>Gather from 6:30 PM · Study at 7:00 PM</span>
+  </div>
 
-        <p>Everyone is welcome.</p>
-      </aside>
+  <div className="event-row">
+    <span style={{ fontSize: '1.2rem' }}>🎥</span>
+   <a
+  href="https://meet.google.com/your-meet-code"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="meet-link "
+>
+  Join Google Meet
+</a>
+  </div>
+
+  <p>✨ Everyone is welcome.</p>
+</aside>
     </section>
   );
 }

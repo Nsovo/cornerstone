@@ -21,7 +21,7 @@ function AnnouncementCard({ item }: AnnouncementCardProps) {
 
 export function WeeklyActivities() {
   return (
-    <section className="section" id="announcements">
+    <section className="section" id="announcements"  data-header-theme="light">
       <div className="section-heading">
         <div>
           <p className="section-label">Stay connected</p>

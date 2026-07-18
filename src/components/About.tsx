@@ -2,7 +2,7 @@ import { Quote } from 'lucide-react';
 
 export function About() {
   return (
-    <section className="intro" id="about">
+    <section className="intro" id="about" >
       <div>
         <p className="section-label">Who we are</p>
         <h2>Faith that feels like family.</h2>

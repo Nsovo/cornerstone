@@ -7,6 +7,7 @@ import { MediaSection } from "./components/MediaSection";
 import { WeeklyActivities } from "./components/WeeklyActivities";
 
 import { Footer } from "./components/Footer";
+import { StudyNotes } from "./components/StudyNotes";
 
 export function App() {
   return (
